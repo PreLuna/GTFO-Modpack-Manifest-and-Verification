@@ -305,5 +305,88 @@
       "ReleaseSHA256": null
     }
   ],
-  "RemoteCloneAcceptancePending": true
+  "RemoteCloneAcceptancePending": false,
+  "RemoteAcceptance": {
+    "VerifiedAtUtc": "2026-10-23T11:53:41.060293+00:00",
+    "VerifiedIntegrationCommit": "66b64b3df4296299ff39e9e5f8cfd8abd69a39fc",
+    "Repositories": [
+      {
+        "Repository": "GTFO-Bio-Scanner-and-Enemy-Markers",
+        "Commit": "66fc414829d03a6ae66251a462da514b184aea0e",
+        "SourceVerified": true,
+        "BuildVerified": true,
+        "Tests": "NotApplicable",
+        "PackageToolVerified": true
+      },
+      {
+        "Repository": "GTFO-Bot-Commands-and-Control",
+        "Commit": "319e304cbdce12068a11377c8fd631c7e65b5c16",
+        "SourceVerified": true,
+        "BuildVerified": true,
+        "Tests": "Passed",
+        "PackageToolVerified": true
+      },
+      {
+        "Repository": "GTFO-C-Foam-Gun-Enhancements",
+        "Commit": "2aee744863c5793448988735e1123e02a6e4c719",
+        "SourceVerified": true,
+        "BuildVerified": true,
+        "Tests": "Passed",
+        "PackageToolVerified": true
+      },
+      {
+        "Repository": "GTFO-Consumable-Stacking",
+        "Commit": "b14633cccb3ed77686e4ec12a86fd5e2bb13ec83",
+        "SourceVerified": true,
+        "BuildVerified": true,
+        "Tests": "Passed",
+        "PackageToolVerified": true
+      },
+      {
+        "Repository": "GTFO-Mod-Build-and-Verification-Tools",
+        "Commit": "62983cff42559262f4f3eddf355de3352ef26b9c",
+        "SourceVerified": true,
+        "BuildVerified": false,
+        "Tests": "Passed",
+        "PackageToolVerified": false
+      },
+      {
+        "Repository": "GTFO-Player-Movement-and-Health",
+        "Commit": "c271352d4b49ad61f9d63682d62aca8b40104abc",
+        "SourceVerified": true,
+        "BuildVerified": true,
+        "Tests": "NotApplicable",
+        "PackageToolVerified": true
+      },
+      {
+        "Repository": "GTFO-Third-Person-Camera-and-HUD",
+        "Commit": "be47aa39ecdbe173c6ef05ad8b90ce08727a5408",
+        "SourceVerified": true,
+        "BuildVerified": true,
+        "Tests": "Passed",
+        "PackageToolVerified": true
+      },
+      {
+        "Repository": "GTFO-Weapon-Attachments-Flashlights-and-Stats",
+        "Commit": "034ee60c41dfac57517fe1fbd4e2755bf20f42c1",
+        "SourceVerified": true,
+        "BuildVerified": true,
+        "Tests": "Passed",
+        "PackageToolVerified": true
+      },
+      {
+        "Repository": "GTFO-Modpack-Manifest-and-Verification",
+        "Commit": "66b64b3df4296299ff39e9e5f8cfd8abd69a39fc",
+        "SourceVerified": true,
+        "BuildVerified": false,
+        "Tests": "NotApplicable",
+        "PackageToolVerified": false
+      }
+    ],
+    "ReleaseDownloadsSHA256Verified": true,
+    "DownloadAuthenticationUsed": true,
+    "GameplayTested": false,
+    "LegacyDeletionAllowed": false,
+    "PreCommitRejectedUntrackedSource": true
+  }
 }
