@@ -1,392 +1,552 @@
 {
-  "SchemaVersion": 2,
-  "Status": "PublishedCandidates-GameplayPending",
+  "SchemaVersion": 3,
+  "Status": "SourceLayoutCommitted-ExistingReleasesUnchanged-GameplayPending",
   "LegacyDeletionAllowed": false,
   "Repositories": [
     {
       "Repository": "GTFO-Bot-Commands-and-Control",
       "URL": "https://github.com/PreLuna/GTFO-Bot-Commands-and-Control.git",
-      "Commit": "319e304cbdce12068a11377c8fd631c7e65b5c16",
-      "SourceLockSHA256": "9A90125F99E68CA63D1B3116EE8025B16A98530296A868942D6656D960140BD0",
-      "ReleaseSHA256": "8A42727F3850076CAC3388675CD275A6D2FA6683F1EBAC7AD9F91EA57A71FC67",
-      "Release": {
-        "Tag": "candidate-20261020",
-        "URL": "https://github.com/PreLuna/GTFO-Bot-Commands-and-Control/releases/tag/candidate-20261020",
-        "Prerelease": true,
-        "DownloadsVerified": true,
-        "Assets": [
-          {
-            "Name": "GTFO-Bot-Commands-and-Control-candidate-20261020.zip",
-            "ID": 668957146,
-            "URL": "https://github.com/PreLuna/GTFO-Bot-Commands-and-Control/releases/download/untagged-904d464cfb70d94b1fd8/GTFO-Bot-Commands-and-Control-candidate-20261020.zip",
-            "SHA256": "8A42727F3850076CAC3388675CD275A6D2FA6683F1EBAC7AD9F91EA57A71FC67",
-            "Bytes": 406456,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          },
-          {
-            "Name": "release-manifest.json",
-            "ID": 668957203,
-            "URL": "https://github.com/PreLuna/GTFO-Bot-Commands-and-Control/releases/download/untagged-904d464cfb70d94b1fd8/release-manifest.json",
-            "SHA256": "663E8F6F409E1E1C4CFACD7939C544F1149E3E248F9135F4EDF188FD5CCAA3FA",
-            "Bytes": 2409,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          },
-          {
-            "Name": "SHA256SUMS.txt",
-            "ID": 668957293,
-            "URL": "https://github.com/PreLuna/GTFO-Bot-Commands-and-Control/releases/download/untagged-904d464cfb70d94b1fd8/SHA256SUMS.txt",
-            "SHA256": "EBF5BB19157F3243B33BDCAD9599374E3C82F0A0D40C7D5C6077137F45DC5682",
-            "Bytes": 207,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          }
-        ]
-      }
+      "Commit": "fe367f84eb92d7f31cbf465af8478ab49177e0d9",
+      "SourceLockSHA256": "9FAF60C9CE154B8DFCEA2213A4F0E6BD3C9644630E2FCD1FD10D788085845F21",
+      "ReleaseSHA256": null
     },
     {
       "Repository": "GTFO-Third-Person-Camera-and-HUD",
       "URL": "https://github.com/PreLuna/GTFO-Third-Person-Camera-and-HUD.git",
-      "Commit": "be47aa39ecdbe173c6ef05ad8b90ce08727a5408",
-      "SourceLockSHA256": "55D7A275A0C9A0A1F2CB36D37CA663D19AF64A7E523AA3D0F6B2EB638D8191EC",
-      "ReleaseSHA256": "3A9F8EE6FB1838B72322967D56B1AD68B3FB996B17F0C65A9635B52A1BBB04C5",
-      "Release": {
-        "Tag": "candidate-20261020",
-        "URL": "https://github.com/PreLuna/GTFO-Third-Person-Camera-and-HUD/releases/tag/candidate-20261020",
-        "Prerelease": true,
-        "DownloadsVerified": true,
-        "Assets": [
-          {
-            "Name": "GTFO-Third-Person-Camera-and-HUD-candidate-20261020.zip",
-            "ID": 668961192,
-            "URL": "https://github.com/PreLuna/GTFO-Third-Person-Camera-and-HUD/releases/download/untagged-2ba323ef9947b6701584/GTFO-Third-Person-Camera-and-HUD-candidate-20261020.zip",
-            "SHA256": "3A9F8EE6FB1838B72322967D56B1AD68B3FB996B17F0C65A9635B52A1BBB04C5",
-            "Bytes": 244538,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          },
-          {
-            "Name": "release-manifest.json",
-            "ID": 668961257,
-            "URL": "https://github.com/PreLuna/GTFO-Third-Person-Camera-and-HUD/releases/download/untagged-2ba323ef9947b6701584/release-manifest.json",
-            "SHA256": "DE1BFD59B52275A888D1C207D1888F4BC6E143D787660449015645C2503EEAD1",
-            "Bytes": 1458,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          },
-          {
-            "Name": "SHA256SUMS.txt",
-            "ID": 668961314,
-            "URL": "https://github.com/PreLuna/GTFO-Third-Person-Camera-and-HUD/releases/download/untagged-2ba323ef9947b6701584/SHA256SUMS.txt",
-            "SHA256": "8DD9460192020F71479F1AC4C38B6204448C35D65095D3B2998B9AF2A466F805",
-            "Bytes": 210,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          }
-        ]
-      }
+      "Commit": "4918005a1eb3802bb37fb409fb0d5d4ca2d31dab",
+      "SourceLockSHA256": "C4564AD3A82486B6635AA45E3D0FE2F3838512BBF24742A49CDB86194A6B00D3",
+      "ReleaseSHA256": null
     },
     {
       "Repository": "GTFO-Weapon-Attachments-Flashlights-and-Stats",
       "URL": "https://github.com/PreLuna/GTFO-Weapon-Attachments-Flashlights-and-Stats.git",
-      "Commit": "034ee60c41dfac57517fe1fbd4e2755bf20f42c1",
-      "SourceLockSHA256": "DB6BBBFB4605530A776F15860FC6F266A86F785544598F27CF6A33AB1713E51C",
-      "ReleaseSHA256": "3311948B6CEA36904EC2F115FF93DE86D48939EC846207C45349D13B1DB70DFD",
-      "Release": {
-        "Tag": "candidate-20261020",
-        "URL": "https://github.com/PreLuna/GTFO-Weapon-Attachments-Flashlights-and-Stats/releases/tag/candidate-20261020",
-        "Prerelease": true,
-        "DownloadsVerified": true,
-        "Assets": [
-          {
-            "Name": "GTFO-Weapon-Attachments-Flashlights-and-Stats-candidate-20261020.zip",
-            "ID": 668962230,
-            "URL": "https://github.com/PreLuna/GTFO-Weapon-Attachments-Flashlights-and-Stats/releases/download/untagged-3da3a2e1669bc5c20a64/GTFO-Weapon-Attachments-Flashlights-and-Stats-candidate-20261020.zip",
-            "SHA256": "3311948B6CEA36904EC2F115FF93DE86D48939EC846207C45349D13B1DB70DFD",
-            "Bytes": 167089,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          },
-          {
-            "Name": "release-manifest.json",
-            "ID": 668962314,
-            "URL": "https://github.com/PreLuna/GTFO-Weapon-Attachments-Flashlights-and-Stats/releases/download/untagged-3da3a2e1669bc5c20a64/release-manifest.json",
-            "SHA256": "419354DC246C888712F21529F11E4865D3D0A22C1463F6AD51F0BB9F03E02E80",
-            "Bytes": 4138,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          },
-          {
-            "Name": "SHA256SUMS.txt",
-            "ID": 668962381,
-            "URL": "https://github.com/PreLuna/GTFO-Weapon-Attachments-Flashlights-and-Stats/releases/download/untagged-3da3a2e1669bc5c20a64/SHA256SUMS.txt",
-            "SHA256": "DB39A14AFDDB9B38039DDDCA0CA7F7C19F040E892DB8A3F3670AA4B4D80926DD",
-            "Bytes": 223,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          }
-        ]
-      }
+      "Commit": "2ca7f1687f5ad218bd461a505415f769188d61f5",
+      "SourceLockSHA256": "E293A5EDACEDD85627E787A7DE09E7EDD6399E8D9EB8D1E2B6992BCC3F5F08BF",
+      "ReleaseSHA256": null
     },
     {
       "Repository": "GTFO-Player-Movement-and-Health",
       "URL": "https://github.com/PreLuna/GTFO-Player-Movement-and-Health.git",
-      "Commit": "c271352d4b49ad61f9d63682d62aca8b40104abc",
-      "SourceLockSHA256": "5F2344A0F51290F35426B8EF18DB81C6F08D0949E3B0DA6ADAABA41581EED605",
-      "ReleaseSHA256": "F47AC1B9140AFC5C9105AFCCB8DB08DCD089829817ECBCB0B5AD5B88C1E3ACFC",
-      "Release": {
-        "Tag": "candidate-20261020",
-        "URL": "https://github.com/PreLuna/GTFO-Player-Movement-and-Health/releases/tag/candidate-20261020",
-        "Prerelease": true,
-        "DownloadsVerified": true,
-        "Assets": [
-          {
-            "Name": "GTFO-Player-Movement-and-Health-candidate-20261020.zip",
-            "ID": 668960654,
-            "URL": "https://github.com/PreLuna/GTFO-Player-Movement-and-Health/releases/download/untagged-7be96d0d1453d34b6ea5/GTFO-Player-Movement-and-Health-candidate-20261020.zip",
-            "SHA256": "F47AC1B9140AFC5C9105AFCCB8DB08DCD089829817ECBCB0B5AD5B88C1E3ACFC",
-            "Bytes": 21103,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          },
-          {
-            "Name": "release-manifest.json",
-            "ID": 668960723,
-            "URL": "https://github.com/PreLuna/GTFO-Player-Movement-and-Health/releases/download/untagged-7be96d0d1453d34b6ea5/release-manifest.json",
-            "SHA256": "7FAFF9508291A5090F2EC1E6FC0339F34D26E19EAB5B1344E34EBF64A9D9E9A6",
-            "Bytes": 1251,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          },
-          {
-            "Name": "SHA256SUMS.txt",
-            "ID": 668960746,
-            "URL": "https://github.com/PreLuna/GTFO-Player-Movement-and-Health/releases/download/untagged-7be96d0d1453d34b6ea5/SHA256SUMS.txt",
-            "SHA256": "7B81F8D58B09F7078A6D70834AB562804F8F41AA596ED7BCCFE8F6326C5F25AB",
-            "Bytes": 209,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          }
-        ]
-      }
+      "Commit": "4f66a3cb48ad0f7a9e2238b30cc3060bc43a471e",
+      "SourceLockSHA256": "A9E1067932DA70E39E7E791DDE4862D5D0AD59B07BA2D6FD7468EF15A2355DA7",
+      "ReleaseSHA256": null
     },
     {
       "Repository": "GTFO-C-Foam-Gun-Enhancements",
       "URL": "https://github.com/PreLuna/GTFO-C-Foam-Gun-Enhancements.git",
-      "Commit": "2aee744863c5793448988735e1123e02a6e4c719",
-      "SourceLockSHA256": "54177081A7AB307B5CAA4E37AAD7D964FC5BD500EF038DAA035EE4C05FB95092",
-      "ReleaseSHA256": "77E2E6F63D15F137D6CCA8708C01C43879C19F1F9CD88D1F905C0B23070BEFE6",
-      "Release": {
-        "Tag": "candidate-20261020",
-        "URL": "https://github.com/PreLuna/GTFO-C-Foam-Gun-Enhancements/releases/tag/candidate-20261020",
-        "Prerelease": true,
-        "DownloadsVerified": true,
-        "Assets": [
-          {
-            "Name": "GTFO-C-Foam-Gun-Enhancements-candidate-20261020.zip",
-            "ID": 668958492,
-            "URL": "https://github.com/PreLuna/GTFO-C-Foam-Gun-Enhancements/releases/download/untagged-0ffe5bdbe44df2e1f12c/GTFO-C-Foam-Gun-Enhancements-candidate-20261020.zip",
-            "SHA256": "77E2E6F63D15F137D6CCA8708C01C43879C19F1F9CD88D1F905C0B23070BEFE6",
-            "Bytes": 10029,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          },
-          {
-            "Name": "release-manifest.json",
-            "ID": 668958543,
-            "URL": "https://github.com/PreLuna/GTFO-C-Foam-Gun-Enhancements/releases/download/untagged-0ffe5bdbe44df2e1f12c/release-manifest.json",
-            "SHA256": "35B81A7E5D5C2ED4BD458723E76CE94CEB7A07746FA94E67D4075FAF6F6D1C85",
-            "Bytes": 953,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          },
-          {
-            "Name": "SHA256SUMS.txt",
-            "ID": 668958613,
-            "URL": "https://github.com/PreLuna/GTFO-C-Foam-Gun-Enhancements/releases/download/untagged-0ffe5bdbe44df2e1f12c/SHA256SUMS.txt",
-            "SHA256": "5E894BC2538A247D72F0D1C35CA5B013E8484E86049B2413CCDDE87FE391FF94",
-            "Bytes": 206,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          }
-        ]
-      }
+      "Commit": "18a212455d5ab7ec5ed743fb321b45592641a2b6",
+      "SourceLockSHA256": "0EC486FD4EB6875EAA2DD0705E9223877137AA42F577E0163A0AFB8DEB1E020B",
+      "ReleaseSHA256": null
     },
     {
       "Repository": "GTFO-Bio-Scanner-and-Enemy-Markers",
       "URL": "https://github.com/PreLuna/GTFO-Bio-Scanner-and-Enemy-Markers.git",
-      "Commit": "66fc414829d03a6ae66251a462da514b184aea0e",
-      "SourceLockSHA256": "A4F1A181FE0F17E908E837DFAAEB8AD64E13B3DB63FF97B79E933C4800E586EB",
-      "ReleaseSHA256": "F5D1631D5231E9741908A916977A5BCA87339D6ABF1998B5B7B1B1B06A4BEF7C",
-      "Release": {
-        "Tag": "candidate-20261020",
-        "URL": "https://github.com/PreLuna/GTFO-Bio-Scanner-and-Enemy-Markers/releases/tag/candidate-20261020",
-        "Prerelease": true,
-        "DownloadsVerified": true,
-        "Assets": [
-          {
-            "Name": "GTFO-Bio-Scanner-and-Enemy-Markers-candidate-20261020.zip",
-            "ID": 668927686,
-            "URL": "https://github.com/PreLuna/GTFO-Bio-Scanner-and-Enemy-Markers/releases/download/candidate-20261020/GTFO-Bio-Scanner-and-Enemy-Markers-candidate-20261020.zip",
-            "SHA256": "F5D1631D5231E9741908A916977A5BCA87339D6ABF1998B5B7B1B1B06A4BEF7C",
-            "Bytes": 13061,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          },
-          {
-            "Name": "release-manifest.json",
-            "ID": 668927743,
-            "URL": "https://github.com/PreLuna/GTFO-Bio-Scanner-and-Enemy-Markers/releases/download/candidate-20261020/release-manifest.json",
-            "SHA256": "3616376D5E1EB13D2171EC9CC37FC4D80A6E3802A7E150CFD2147C5560A3496E",
-            "Bytes": 974,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          },
-          {
-            "Name": "SHA256SUMS.txt",
-            "ID": 668927792,
-            "URL": "https://github.com/PreLuna/GTFO-Bio-Scanner-and-Enemy-Markers/releases/download/candidate-20261020/SHA256SUMS.txt",
-            "SHA256": "FDC051E5CD2DEE32F8FD1240EF4ECA5DE8FA33457430136647050CD9118FC299",
-            "Bytes": 212,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          }
-        ]
-      }
+      "Commit": "3f4958d4191767a5ab281672958d4a7c73913f6e",
+      "SourceLockSHA256": "333064BBD988E680097BEF980ECE1C098FF8B5905FF28BAA8F116CDED0C8ED55",
+      "ReleaseSHA256": null
     },
     {
       "Repository": "GTFO-Consumable-Stacking",
       "URL": "https://github.com/PreLuna/GTFO-Consumable-Stacking.git",
-      "Commit": "b14633cccb3ed77686e4ec12a86fd5e2bb13ec83",
-      "SourceLockSHA256": "3108C0BC1AB2D3276399684FBFFB5DB5566DC9860FBE66ADFBF31566E1A364CC",
-      "ReleaseSHA256": "7C1E678263C5A6A3EDA443BA6D9794F18CEB58A15542F52C9FB31CFB8DBC11B9",
-      "Release": {
-        "Tag": "candidate-20261020",
-        "URL": "https://github.com/PreLuna/GTFO-Consumable-Stacking/releases/tag/candidate-20261020",
-        "Prerelease": true,
-        "DownloadsVerified": true,
-        "Assets": [
-          {
-            "Name": "GTFO-Consumable-Stacking-candidate-20261020.zip",
-            "ID": 668959268,
-            "URL": "https://github.com/PreLuna/GTFO-Consumable-Stacking/releases/download/untagged-9eb3f3367fd94eadc6dd/GTFO-Consumable-Stacking-candidate-20261020.zip",
-            "SHA256": "7C1E678263C5A6A3EDA443BA6D9794F18CEB58A15542F52C9FB31CFB8DBC11B9",
-            "Bytes": 16293,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          },
-          {
-            "Name": "release-manifest.json",
-            "ID": 668959307,
-            "URL": "https://github.com/PreLuna/GTFO-Consumable-Stacking/releases/download/untagged-9eb3f3367fd94eadc6dd/release-manifest.json",
-            "SHA256": "D58068C228986D1B4818DE6DF543F9379EAD5F9CDF79F4A7A34A32E8CDC9E266",
-            "Bytes": 948,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          },
-          {
-            "Name": "SHA256SUMS.txt",
-            "ID": 668959356,
-            "URL": "https://github.com/PreLuna/GTFO-Consumable-Stacking/releases/download/untagged-9eb3f3367fd94eadc6dd/SHA256SUMS.txt",
-            "SHA256": "971390567C77F413A9C414E9A1F8635BBB7CC3537F785F7D0D23D22BB593B6C3",
-            "Bytes": 202,
-            "DownloadSHA256Verified": true,
-            "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
-          }
-        ]
-      }
+      "Commit": "9da5ae71151df0999f13b86b31544b5de2f19ed8",
+      "SourceLockSHA256": "622830AA636C31EE3F8DFA571E1246E5B83F8F549179628C12235F3216EDBB39",
+      "ReleaseSHA256": null
     },
     {
       "Repository": "GTFO-Mod-Build-and-Verification-Tools",
       "URL": "https://github.com/PreLuna/GTFO-Mod-Build-and-Verification-Tools.git",
-      "Commit": "62983cff42559262f4f3eddf355de3352ef26b9c",
-      "SourceLockSHA256": "ABBC6869B82D292BF2F91B1293B0CD806652BF6E7A2BEF5A325ABFA7D252E68B",
+      "Commit": "cd29a58b63e7d6234fe04923cdb223649caa253d",
+      "SourceLockSHA256": "7C4E89FB271A0D440EF577B9A8E769E5F6105E33846BDCED0463E4AF30694476",
       "ReleaseSHA256": null
     }
   ],
   "RemoteCloneAcceptancePending": false,
   "RemoteAcceptance": {
-    "VerifiedAtUtc": "2026-10-23T11:53:41.060293+00:00",
-    "VerifiedIntegrationCommit": "66b64b3df4296299ff39e9e5f8cfd8abd69a39fc",
+    "VerifiedAtUtc": "2026-10-23T14:01:11.2213559Z",
+    "Scope": "Eight source repositories; integration commit verified separately after push",
     "Repositories": [
       {
         "Repository": "GTFO-Bio-Scanner-and-Enemy-Markers",
-        "Commit": "66fc414829d03a6ae66251a462da514b184aea0e",
+        "Commit": "3f4958d4191767a5ab281672958d4a7c73913f6e",
+        "GitTree": "1d5b36c3000ce911bc806363061f3b9150790cbf",
+        "SourceLockSHA256": "333064BBD988E680097BEF980ECE1C098FF8B5905FF28BAA8F116CDED0C8ED55",
+        "RemoteCloneVerified": true,
         "SourceVerified": true,
         "BuildVerified": true,
         "Tests": "NotApplicable",
-        "PackageToolVerified": true
+        "GameplayTested": false
       },
       {
         "Repository": "GTFO-Bot-Commands-and-Control",
-        "Commit": "319e304cbdce12068a11377c8fd631c7e65b5c16",
+        "Commit": "fe367f84eb92d7f31cbf465af8478ab49177e0d9",
+        "GitTree": "c66a2ffe8cc1faed82cb16d1dbbc08f4f12f948b",
+        "SourceLockSHA256": "9FAF60C9CE154B8DFCEA2213A4F0E6BD3C9644630E2FCD1FD10D788085845F21",
+        "RemoteCloneVerified": true,
         "SourceVerified": true,
         "BuildVerified": true,
         "Tests": "Passed",
-        "PackageToolVerified": true
+        "GameplayTested": false
       },
       {
         "Repository": "GTFO-C-Foam-Gun-Enhancements",
-        "Commit": "2aee744863c5793448988735e1123e02a6e4c719",
+        "Commit": "18a212455d5ab7ec5ed743fb321b45592641a2b6",
+        "GitTree": "c599bb0ebe8b3d43fbdd6d75c30f73bd5e44dba5",
+        "SourceLockSHA256": "0EC486FD4EB6875EAA2DD0705E9223877137AA42F577E0163A0AFB8DEB1E020B",
+        "RemoteCloneVerified": true,
         "SourceVerified": true,
         "BuildVerified": true,
         "Tests": "Passed",
-        "PackageToolVerified": true
+        "GameplayTested": false
       },
       {
         "Repository": "GTFO-Consumable-Stacking",
-        "Commit": "b14633cccb3ed77686e4ec12a86fd5e2bb13ec83",
+        "Commit": "9da5ae71151df0999f13b86b31544b5de2f19ed8",
+        "GitTree": "c2607e317cfa4f6da684b0bf8e084d409e6a5927",
+        "SourceLockSHA256": "622830AA636C31EE3F8DFA571E1246E5B83F8F549179628C12235F3216EDBB39",
+        "RemoteCloneVerified": true,
         "SourceVerified": true,
         "BuildVerified": true,
         "Tests": "Passed",
-        "PackageToolVerified": true
+        "GameplayTested": false
       },
       {
         "Repository": "GTFO-Mod-Build-and-Verification-Tools",
-        "Commit": "62983cff42559262f4f3eddf355de3352ef26b9c",
+        "Commit": "cd29a58b63e7d6234fe04923cdb223649caa253d",
+        "GitTree": "3a56cbb8adf4f1017be515481cdf7fd39e559a3e",
+        "SourceLockSHA256": "7C4E89FB271A0D440EF577B9A8E769E5F6105E33846BDCED0463E4AF30694476",
+        "RemoteCloneVerified": true,
         "SourceVerified": true,
         "BuildVerified": false,
         "Tests": "Passed",
-        "PackageToolVerified": false
+        "GameplayTested": false
       },
       {
         "Repository": "GTFO-Player-Movement-and-Health",
-        "Commit": "c271352d4b49ad61f9d63682d62aca8b40104abc",
+        "Commit": "4f66a3cb48ad0f7a9e2238b30cc3060bc43a471e",
+        "GitTree": "8842a1fec87ea3b7d418a510be61fe2b3ce6cde5",
+        "SourceLockSHA256": "A9E1067932DA70E39E7E791DDE4862D5D0AD59B07BA2D6FD7468EF15A2355DA7",
+        "RemoteCloneVerified": true,
         "SourceVerified": true,
         "BuildVerified": true,
         "Tests": "NotApplicable",
-        "PackageToolVerified": true
+        "GameplayTested": false
       },
       {
         "Repository": "GTFO-Third-Person-Camera-and-HUD",
-        "Commit": "be47aa39ecdbe173c6ef05ad8b90ce08727a5408",
+        "Commit": "4918005a1eb3802bb37fb409fb0d5d4ca2d31dab",
+        "GitTree": "a97fa968a137befe387a1d597b7267e1451694c9",
+        "SourceLockSHA256": "C4564AD3A82486B6635AA45E3D0FE2F3838512BBF24742A49CDB86194A6B00D3",
+        "RemoteCloneVerified": true,
         "SourceVerified": true,
         "BuildVerified": true,
         "Tests": "Passed",
-        "PackageToolVerified": true
+        "GameplayTested": false
       },
       {
         "Repository": "GTFO-Weapon-Attachments-Flashlights-and-Stats",
-        "Commit": "034ee60c41dfac57517fe1fbd4e2755bf20f42c1",
+        "Commit": "2ca7f1687f5ad218bd461a505415f769188d61f5",
+        "GitTree": "a8f75235980dd04af19130d3fd450f2cef846533",
+        "SourceLockSHA256": "E293A5EDACEDD85627E787A7DE09E7EDD6399E8D9EB8D1E2B6992BCC3F5F08BF",
+        "RemoteCloneVerified": true,
         "SourceVerified": true,
         "BuildVerified": true,
         "Tests": "Passed",
-        "PackageToolVerified": true
-      },
-      {
-        "Repository": "GTFO-Modpack-Manifest-and-Verification",
-        "Commit": "66b64b3df4296299ff39e9e5f8cfd8abd69a39fc",
-        "SourceVerified": true,
-        "BuildVerified": false,
-        "Tests": "NotApplicable",
-        "PackageToolVerified": false
+        "GameplayTested": false
       }
     ],
-    "ReleaseDownloadsSHA256Verified": true,
-    "DownloadAuthenticationUsed": true,
     "GameplayTested": false,
+    "LegacyDeletionAllowed": false
+  },
+  "PublishedBaseline": {
+    "SchemaVersion": 2,
+    "Status": "PublishedCandidates-GameplayPending",
     "LegacyDeletionAllowed": false,
-    "PreCommitRejectedUntrackedSource": true
+    "Repositories": [
+      {
+        "Repository": "GTFO-Bot-Commands-and-Control",
+        "URL": "https://github.com/PreLuna/GTFO-Bot-Commands-and-Control.git",
+        "Commit": "319e304cbdce12068a11377c8fd631c7e65b5c16",
+        "SourceLockSHA256": "9A90125F99E68CA63D1B3116EE8025B16A98530296A868942D6656D960140BD0",
+        "ReleaseSHA256": "8A42727F3850076CAC3388675CD275A6D2FA6683F1EBAC7AD9F91EA57A71FC67",
+        "Release": {
+          "Tag": "candidate-20261020",
+          "URL": "https://github.com/PreLuna/GTFO-Bot-Commands-and-Control/releases/tag/candidate-20261020",
+          "Prerelease": true,
+          "DownloadsVerified": true,
+          "Assets": [
+            {
+              "Name": "GTFO-Bot-Commands-and-Control-candidate-20261020.zip",
+              "ID": 668957146,
+              "URL": "https://github.com/PreLuna/GTFO-Bot-Commands-and-Control/releases/download/untagged-904d464cfb70d94b1fd8/GTFO-Bot-Commands-and-Control-candidate-20261020.zip",
+              "SHA256": "8A42727F3850076CAC3388675CD275A6D2FA6683F1EBAC7AD9F91EA57A71FC67",
+              "Bytes": 406456,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            },
+            {
+              "Name": "release-manifest.json",
+              "ID": 668957203,
+              "URL": "https://github.com/PreLuna/GTFO-Bot-Commands-and-Control/releases/download/untagged-904d464cfb70d94b1fd8/release-manifest.json",
+              "SHA256": "663E8F6F409E1E1C4CFACD7939C544F1149E3E248F9135F4EDF188FD5CCAA3FA",
+              "Bytes": 2409,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            },
+            {
+              "Name": "SHA256SUMS.txt",
+              "ID": 668957293,
+              "URL": "https://github.com/PreLuna/GTFO-Bot-Commands-and-Control/releases/download/untagged-904d464cfb70d94b1fd8/SHA256SUMS.txt",
+              "SHA256": "EBF5BB19157F3243B33BDCAD9599374E3C82F0A0D40C7D5C6077137F45DC5682",
+              "Bytes": 207,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            }
+          ]
+        }
+      },
+      {
+        "Repository": "GTFO-Third-Person-Camera-and-HUD",
+        "URL": "https://github.com/PreLuna/GTFO-Third-Person-Camera-and-HUD.git",
+        "Commit": "be47aa39ecdbe173c6ef05ad8b90ce08727a5408",
+        "SourceLockSHA256": "55D7A275A0C9A0A1F2CB36D37CA663D19AF64A7E523AA3D0F6B2EB638D8191EC",
+        "ReleaseSHA256": "3A9F8EE6FB1838B72322967D56B1AD68B3FB996B17F0C65A9635B52A1BBB04C5",
+        "Release": {
+          "Tag": "candidate-20261020",
+          "URL": "https://github.com/PreLuna/GTFO-Third-Person-Camera-and-HUD/releases/tag/candidate-20261020",
+          "Prerelease": true,
+          "DownloadsVerified": true,
+          "Assets": [
+            {
+              "Name": "GTFO-Third-Person-Camera-and-HUD-candidate-20261020.zip",
+              "ID": 668961192,
+              "URL": "https://github.com/PreLuna/GTFO-Third-Person-Camera-and-HUD/releases/download/untagged-2ba323ef9947b6701584/GTFO-Third-Person-Camera-and-HUD-candidate-20261020.zip",
+              "SHA256": "3A9F8EE6FB1838B72322967D56B1AD68B3FB996B17F0C65A9635B52A1BBB04C5",
+              "Bytes": 244538,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            },
+            {
+              "Name": "release-manifest.json",
+              "ID": 668961257,
+              "URL": "https://github.com/PreLuna/GTFO-Third-Person-Camera-and-HUD/releases/download/untagged-2ba323ef9947b6701584/release-manifest.json",
+              "SHA256": "DE1BFD59B52275A888D1C207D1888F4BC6E143D787660449015645C2503EEAD1",
+              "Bytes": 1458,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            },
+            {
+              "Name": "SHA256SUMS.txt",
+              "ID": 668961314,
+              "URL": "https://github.com/PreLuna/GTFO-Third-Person-Camera-and-HUD/releases/download/untagged-2ba323ef9947b6701584/SHA256SUMS.txt",
+              "SHA256": "8DD9460192020F71479F1AC4C38B6204448C35D65095D3B2998B9AF2A466F805",
+              "Bytes": 210,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            }
+          ]
+        }
+      },
+      {
+        "Repository": "GTFO-Weapon-Attachments-Flashlights-and-Stats",
+        "URL": "https://github.com/PreLuna/GTFO-Weapon-Attachments-Flashlights-and-Stats.git",
+        "Commit": "034ee60c41dfac57517fe1fbd4e2755bf20f42c1",
+        "SourceLockSHA256": "DB6BBBFB4605530A776F15860FC6F266A86F785544598F27CF6A33AB1713E51C",
+        "ReleaseSHA256": "3311948B6CEA36904EC2F115FF93DE86D48939EC846207C45349D13B1DB70DFD",
+        "Release": {
+          "Tag": "candidate-20261020",
+          "URL": "https://github.com/PreLuna/GTFO-Weapon-Attachments-Flashlights-and-Stats/releases/tag/candidate-20261020",
+          "Prerelease": true,
+          "DownloadsVerified": true,
+          "Assets": [
+            {
+              "Name": "GTFO-Weapon-Attachments-Flashlights-and-Stats-candidate-20261020.zip",
+              "ID": 668962230,
+              "URL": "https://github.com/PreLuna/GTFO-Weapon-Attachments-Flashlights-and-Stats/releases/download/untagged-3da3a2e1669bc5c20a64/GTFO-Weapon-Attachments-Flashlights-and-Stats-candidate-20261020.zip",
+              "SHA256": "3311948B6CEA36904EC2F115FF93DE86D48939EC846207C45349D13B1DB70DFD",
+              "Bytes": 167089,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            },
+            {
+              "Name": "release-manifest.json",
+              "ID": 668962314,
+              "URL": "https://github.com/PreLuna/GTFO-Weapon-Attachments-Flashlights-and-Stats/releases/download/untagged-3da3a2e1669bc5c20a64/release-manifest.json",
+              "SHA256": "419354DC246C888712F21529F11E4865D3D0A22C1463F6AD51F0BB9F03E02E80",
+              "Bytes": 4138,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            },
+            {
+              "Name": "SHA256SUMS.txt",
+              "ID": 668962381,
+              "URL": "https://github.com/PreLuna/GTFO-Weapon-Attachments-Flashlights-and-Stats/releases/download/untagged-3da3a2e1669bc5c20a64/SHA256SUMS.txt",
+              "SHA256": "DB39A14AFDDB9B38039DDDCA0CA7F7C19F040E892DB8A3F3670AA4B4D80926DD",
+              "Bytes": 223,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            }
+          ]
+        }
+      },
+      {
+        "Repository": "GTFO-Player-Movement-and-Health",
+        "URL": "https://github.com/PreLuna/GTFO-Player-Movement-and-Health.git",
+        "Commit": "c271352d4b49ad61f9d63682d62aca8b40104abc",
+        "SourceLockSHA256": "5F2344A0F51290F35426B8EF18DB81C6F08D0949E3B0DA6ADAABA41581EED605",
+        "ReleaseSHA256": "F47AC1B9140AFC5C9105AFCCB8DB08DCD089829817ECBCB0B5AD5B88C1E3ACFC",
+        "Release": {
+          "Tag": "candidate-20261020",
+          "URL": "https://github.com/PreLuna/GTFO-Player-Movement-and-Health/releases/tag/candidate-20261020",
+          "Prerelease": true,
+          "DownloadsVerified": true,
+          "Assets": [
+            {
+              "Name": "GTFO-Player-Movement-and-Health-candidate-20261020.zip",
+              "ID": 668960654,
+              "URL": "https://github.com/PreLuna/GTFO-Player-Movement-and-Health/releases/download/untagged-7be96d0d1453d34b6ea5/GTFO-Player-Movement-and-Health-candidate-20261020.zip",
+              "SHA256": "F47AC1B9140AFC5C9105AFCCB8DB08DCD089829817ECBCB0B5AD5B88C1E3ACFC",
+              "Bytes": 21103,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            },
+            {
+              "Name": "release-manifest.json",
+              "ID": 668960723,
+              "URL": "https://github.com/PreLuna/GTFO-Player-Movement-and-Health/releases/download/untagged-7be96d0d1453d34b6ea5/release-manifest.json",
+              "SHA256": "7FAFF9508291A5090F2EC1E6FC0339F34D26E19EAB5B1344E34EBF64A9D9E9A6",
+              "Bytes": 1251,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            },
+            {
+              "Name": "SHA256SUMS.txt",
+              "ID": 668960746,
+              "URL": "https://github.com/PreLuna/GTFO-Player-Movement-and-Health/releases/download/untagged-7be96d0d1453d34b6ea5/SHA256SUMS.txt",
+              "SHA256": "7B81F8D58B09F7078A6D70834AB562804F8F41AA596ED7BCCFE8F6326C5F25AB",
+              "Bytes": 209,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            }
+          ]
+        }
+      },
+      {
+        "Repository": "GTFO-C-Foam-Gun-Enhancements",
+        "URL": "https://github.com/PreLuna/GTFO-C-Foam-Gun-Enhancements.git",
+        "Commit": "2aee744863c5793448988735e1123e02a6e4c719",
+        "SourceLockSHA256": "54177081A7AB307B5CAA4E37AAD7D964FC5BD500EF038DAA035EE4C05FB95092",
+        "ReleaseSHA256": "77E2E6F63D15F137D6CCA8708C01C43879C19F1F9CD88D1F905C0B23070BEFE6",
+        "Release": {
+          "Tag": "candidate-20261020",
+          "URL": "https://github.com/PreLuna/GTFO-C-Foam-Gun-Enhancements/releases/tag/candidate-20261020",
+          "Prerelease": true,
+          "DownloadsVerified": true,
+          "Assets": [
+            {
+              "Name": "GTFO-C-Foam-Gun-Enhancements-candidate-20261020.zip",
+              "ID": 668958492,
+              "URL": "https://github.com/PreLuna/GTFO-C-Foam-Gun-Enhancements/releases/download/untagged-0ffe5bdbe44df2e1f12c/GTFO-C-Foam-Gun-Enhancements-candidate-20261020.zip",
+              "SHA256": "77E2E6F63D15F137D6CCA8708C01C43879C19F1F9CD88D1F905C0B23070BEFE6",
+              "Bytes": 10029,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            },
+            {
+              "Name": "release-manifest.json",
+              "ID": 668958543,
+              "URL": "https://github.com/PreLuna/GTFO-C-Foam-Gun-Enhancements/releases/download/untagged-0ffe5bdbe44df2e1f12c/release-manifest.json",
+              "SHA256": "35B81A7E5D5C2ED4BD458723E76CE94CEB7A07746FA94E67D4075FAF6F6D1C85",
+              "Bytes": 953,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            },
+            {
+              "Name": "SHA256SUMS.txt",
+              "ID": 668958613,
+              "URL": "https://github.com/PreLuna/GTFO-C-Foam-Gun-Enhancements/releases/download/untagged-0ffe5bdbe44df2e1f12c/SHA256SUMS.txt",
+              "SHA256": "5E894BC2538A247D72F0D1C35CA5B013E8484E86049B2413CCDDE87FE391FF94",
+              "Bytes": 206,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            }
+          ]
+        }
+      },
+      {
+        "Repository": "GTFO-Bio-Scanner-and-Enemy-Markers",
+        "URL": "https://github.com/PreLuna/GTFO-Bio-Scanner-and-Enemy-Markers.git",
+        "Commit": "66fc414829d03a6ae66251a462da514b184aea0e",
+        "SourceLockSHA256": "A4F1A181FE0F17E908E837DFAAEB8AD64E13B3DB63FF97B79E933C4800E586EB",
+        "ReleaseSHA256": "F5D1631D5231E9741908A916977A5BCA87339D6ABF1998B5B7B1B1B06A4BEF7C",
+        "Release": {
+          "Tag": "candidate-20261020",
+          "URL": "https://github.com/PreLuna/GTFO-Bio-Scanner-and-Enemy-Markers/releases/tag/candidate-20261020",
+          "Prerelease": true,
+          "DownloadsVerified": true,
+          "Assets": [
+            {
+              "Name": "GTFO-Bio-Scanner-and-Enemy-Markers-candidate-20261020.zip",
+              "ID": 668927686,
+              "URL": "https://github.com/PreLuna/GTFO-Bio-Scanner-and-Enemy-Markers/releases/download/candidate-20261020/GTFO-Bio-Scanner-and-Enemy-Markers-candidate-20261020.zip",
+              "SHA256": "F5D1631D5231E9741908A916977A5BCA87339D6ABF1998B5B7B1B1B06A4BEF7C",
+              "Bytes": 13061,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            },
+            {
+              "Name": "release-manifest.json",
+              "ID": 668927743,
+              "URL": "https://github.com/PreLuna/GTFO-Bio-Scanner-and-Enemy-Markers/releases/download/candidate-20261020/release-manifest.json",
+              "SHA256": "3616376D5E1EB13D2171EC9CC37FC4D80A6E3802A7E150CFD2147C5560A3496E",
+              "Bytes": 974,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            },
+            {
+              "Name": "SHA256SUMS.txt",
+              "ID": 668927792,
+              "URL": "https://github.com/PreLuna/GTFO-Bio-Scanner-and-Enemy-Markers/releases/download/candidate-20261020/SHA256SUMS.txt",
+              "SHA256": "FDC051E5CD2DEE32F8FD1240EF4ECA5DE8FA33457430136647050CD9118FC299",
+              "Bytes": 212,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            }
+          ]
+        }
+      },
+      {
+        "Repository": "GTFO-Consumable-Stacking",
+        "URL": "https://github.com/PreLuna/GTFO-Consumable-Stacking.git",
+        "Commit": "b14633cccb3ed77686e4ec12a86fd5e2bb13ec83",
+        "SourceLockSHA256": "3108C0BC1AB2D3276399684FBFFB5DB5566DC9860FBE66ADFBF31566E1A364CC",
+        "ReleaseSHA256": "7C1E678263C5A6A3EDA443BA6D9794F18CEB58A15542F52C9FB31CFB8DBC11B9",
+        "Release": {
+          "Tag": "candidate-20261020",
+          "URL": "https://github.com/PreLuna/GTFO-Consumable-Stacking/releases/tag/candidate-20261020",
+          "Prerelease": true,
+          "DownloadsVerified": true,
+          "Assets": [
+            {
+              "Name": "GTFO-Consumable-Stacking-candidate-20261020.zip",
+              "ID": 668959268,
+              "URL": "https://github.com/PreLuna/GTFO-Consumable-Stacking/releases/download/untagged-9eb3f3367fd94eadc6dd/GTFO-Consumable-Stacking-candidate-20261020.zip",
+              "SHA256": "7C1E678263C5A6A3EDA443BA6D9794F18CEB58A15542F52C9FB31CFB8DBC11B9",
+              "Bytes": 16293,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            },
+            {
+              "Name": "release-manifest.json",
+              "ID": 668959307,
+              "URL": "https://github.com/PreLuna/GTFO-Consumable-Stacking/releases/download/untagged-9eb3f3367fd94eadc6dd/release-manifest.json",
+              "SHA256": "D58068C228986D1B4818DE6DF543F9379EAD5F9CDF79F4A7A34A32E8CDC9E266",
+              "Bytes": 948,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            },
+            {
+              "Name": "SHA256SUMS.txt",
+              "ID": 668959356,
+              "URL": "https://github.com/PreLuna/GTFO-Consumable-Stacking/releases/download/untagged-9eb3f3367fd94eadc6dd/SHA256SUMS.txt",
+              "SHA256": "971390567C77F413A9C414E9A1F8635BBB7CC3537F785F7D0D23D22BB593B6C3",
+              "Bytes": 202,
+              "DownloadSHA256Verified": true,
+              "DownloadMethod": "Authenticated GitHub release asset API; anonymous API quota exhausted"
+            }
+          ]
+        }
+      },
+      {
+        "Repository": "GTFO-Mod-Build-and-Verification-Tools",
+        "URL": "https://github.com/PreLuna/GTFO-Mod-Build-and-Verification-Tools.git",
+        "Commit": "62983cff42559262f4f3eddf355de3352ef26b9c",
+        "SourceLockSHA256": "ABBC6869B82D292BF2F91B1293B0CD806652BF6E7A2BEF5A325ABFA7D252E68B",
+        "ReleaseSHA256": null
+      }
+    ],
+    "RemoteCloneAcceptancePending": false,
+    "RemoteAcceptance": {
+      "VerifiedAtUtc": "2026-10-23T19:53:41.060293+08:00",
+      "VerifiedIntegrationCommit": "66b64b3df4296299ff39e9e5f8cfd8abd69a39fc",
+      "Repositories": [
+        {
+          "Repository": "GTFO-Bio-Scanner-and-Enemy-Markers",
+          "Commit": "66fc414829d03a6ae66251a462da514b184aea0e",
+          "SourceVerified": true,
+          "BuildVerified": true,
+          "Tests": "NotApplicable",
+          "PackageToolVerified": true
+        },
+        {
+          "Repository": "GTFO-Bot-Commands-and-Control",
+          "Commit": "319e304cbdce12068a11377c8fd631c7e65b5c16",
+          "SourceVerified": true,
+          "BuildVerified": true,
+          "Tests": "Passed",
+          "PackageToolVerified": true
+        },
+        {
+          "Repository": "GTFO-C-Foam-Gun-Enhancements",
+          "Commit": "2aee744863c5793448988735e1123e02a6e4c719",
+          "SourceVerified": true,
+          "BuildVerified": true,
+          "Tests": "Passed",
+          "PackageToolVerified": true
+        },
+        {
+          "Repository": "GTFO-Consumable-Stacking",
+          "Commit": "b14633cccb3ed77686e4ec12a86fd5e2bb13ec83",
+          "SourceVerified": true,
+          "BuildVerified": true,
+          "Tests": "Passed",
+          "PackageToolVerified": true
+        },
+        {
+          "Repository": "GTFO-Mod-Build-and-Verification-Tools",
+          "Commit": "62983cff42559262f4f3eddf355de3352ef26b9c",
+          "SourceVerified": true,
+          "BuildVerified": false,
+          "Tests": "Passed",
+          "PackageToolVerified": false
+        },
+        {
+          "Repository": "GTFO-Player-Movement-and-Health",
+          "Commit": "c271352d4b49ad61f9d63682d62aca8b40104abc",
+          "SourceVerified": true,
+          "BuildVerified": true,
+          "Tests": "NotApplicable",
+          "PackageToolVerified": true
+        },
+        {
+          "Repository": "GTFO-Third-Person-Camera-and-HUD",
+          "Commit": "be47aa39ecdbe173c6ef05ad8b90ce08727a5408",
+          "SourceVerified": true,
+          "BuildVerified": true,
+          "Tests": "Passed",
+          "PackageToolVerified": true
+        },
+        {
+          "Repository": "GTFO-Weapon-Attachments-Flashlights-and-Stats",
+          "Commit": "034ee60c41dfac57517fe1fbd4e2755bf20f42c1",
+          "SourceVerified": true,
+          "BuildVerified": true,
+          "Tests": "Passed",
+          "PackageToolVerified": true
+        },
+        {
+          "Repository": "GTFO-Modpack-Manifest-and-Verification",
+          "Commit": "66b64b3df4296299ff39e9e5f8cfd8abd69a39fc",
+          "SourceVerified": true,
+          "BuildVerified": false,
+          "Tests": "NotApplicable",
+          "PackageToolVerified": false
+        }
+      ],
+      "ReleaseDownloadsSHA256Verified": true,
+      "DownloadAuthenticationUsed": true,
+      "GameplayTested": false,
+      "LegacyDeletionAllowed": false,
+      "PreCommitRejectedUntrackedSource": true
+    }
   }
 }

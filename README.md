@@ -1,19 +1,9 @@
 # GTFO-Modpack-Manifest-and-Verification
 
-Repository commit locks, modpack manifests, and checkout verification for GTFO mods. 跨仓提交锁定、整合清单及下载核验。
+跨仓提交、维护锁与安装包哈希登记。本仓不存放各MOD源码，不提供游戏安装ZIP。
 
-使用入口及关联见 [DEVELOPMENT.md](DEVELOPMENT.md)。本仓库不提供游戏安装 ZIP。
+integration.json的Repositories锁定本次MOD目录整理后已提交、推送的8个功能／工具仓源码，RemoteAcceptance记录从GitHub重新克隆后的构建与回归。PublishedBaseline保留整理前源码、candidate-20261020安装包及其下载验收记录；本轮没有发布或覆盖安装包。
 
-## 安装候选
+当前检查：`./Verify-All.ps1`，核对准确提交、源码锁和干净工作区。未来需要核验未提交改动时，显式登记LocalWorkspace后才能使用-LocalWorkspace；本次源码不再处于未提交预览状态。
 
-7 个功能仓库提供 candidate-20261020 预发布安装包；共用工具与本整合仓库只提供维护资料。安装包已通过离线检查与下载 SHA256 核对，本次拆仓安装包尚未完成游戏内实测。精确源码提交、前置和下载哈希见 integration.json 与各仓 README。
-
-| 功能仓库 | 安装下载 |
-| --- | --- |
-| GTFO-Bio-Scanner-and-Enemy-Markers | [Releases](https://github.com/PreLuna/GTFO-Bio-Scanner-and-Enemy-Markers/releases/tag/candidate-20261020) |
-| GTFO-Bot-Commands-and-Control | [Releases](https://github.com/PreLuna/GTFO-Bot-Commands-and-Control/releases/tag/candidate-20261020) |
-| GTFO-C-Foam-Gun-Enhancements | [Releases](https://github.com/PreLuna/GTFO-C-Foam-Gun-Enhancements/releases/tag/candidate-20261020) |
-| GTFO-Consumable-Stacking | [Releases](https://github.com/PreLuna/GTFO-Consumable-Stacking/releases/tag/candidate-20261020) |
-| GTFO-Player-Movement-and-Health | [Releases](https://github.com/PreLuna/GTFO-Player-Movement-and-Health/releases/tag/candidate-20261020) |
-| GTFO-Third-Person-Camera-and-HUD | [Releases](https://github.com/PreLuna/GTFO-Third-Person-Camera-and-HUD/releases/tag/candidate-20261020) |
-| GTFO-Weapon-Attachments-Flashlights-and-Stats | [Releases](https://github.com/PreLuna/GTFO-Weapon-Attachments-Flashlights-and-Stats/releases/tag/candidate-20261020) |
+7个功能仓的原安装包仍在各自Releases；[整合清单](integration.json) 分别记录当前源码和既有发布版本。使用与维护见 [DEVELOPMENT.md](DEVELOPMENT.md)。

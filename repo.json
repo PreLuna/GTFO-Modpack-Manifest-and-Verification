@@ -1,5 +1,6 @@
 {
-  "SchemaVersion": 2,
+  "SchemaVersion": 3,
   "Repository": "GTFO-Modpack-Manifest-and-Verification",
-  "Modules": []
+  "Modules": [],
+  "InputRoots": []
 }
