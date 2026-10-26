@@ -1,13 +1,13 @@
 {
   "SchemaVersion": 3,
-  "Status": "CommittedSources-CoreGameplayAccepted-WeaponSwitchPending-PublishedBaselineUnchanged",
+  "Status": "SourceCommitted-HeadCamera0315-MicroMaster0516-UserAccepted-PublishedBaselineUnchanged",
   "LegacyDeletionAllowed": false,
   "Repositories": [
     {
       "Repository": "GTFO-Bot-Commands-and-Control",
       "URL": "https://github.com/PreLuna/GTFO-Bot-Commands-and-Control.git",
-      "Commit": "3a9458ff7d12a4fab9fc59a78166b52a6537e423",
-      "SourceLockSHA256": "25222B5D70AA9CC82D0B7255C25E5C0D64934CE953BA6B3217AD23FBC207FDE7",
+      "Commit": "4d8af25c880a6f3db6e4e6bebb04c5cf3f059395",
+      "SourceLockSHA256": "8E2004884CB49F46D19148D31EB6536C9021531BB70C10EE222FAADD5E46B871",
       "ReleaseSHA256": null
     },
     {
@@ -666,30 +666,40 @@
     "EvidenceScope": "Build/test results for the earlier exact commits recorded here; not rerun for documentation-only commits"
   },
   "SourceUpdateAcceptance": {
-    "VerifiedAtUtc": "2026-10-26T02:10:16.506056+00:00",
+    "VerifiedAtUtc": "2026-10-26T13:24:30.371053+00:00",
     "Repository": "GTFO-Bot-Commands-and-Control",
-    "Commit": "3a9458ff7d12a4fab9fc59a78166b52a6537e423",
-    "GitTree": "d90ab815d9f07a64ebf91249c447cbe4dce06ef1",
-    "SourceLockSHA256": "25222B5D70AA9CC82D0B7255C25E5C0D64934CE953BA6B3217AD23FBC207FDE7",
+    "Commit": "4d8af25c880a6f3db6e4e6bebb04c5cf3f059395",
+    "GitTree": "02d8d6d39dc8d5c5e272b80be95b88da0c8c32a5",
+    "SourceLockSHA256": "8E2004884CB49F46D19148D31EB6536C9021531BB70C10EE222FAADD5E46B871",
     "RemoteBranch": "main",
     "RemoteCommitVerified": true,
     "FreshRemoteCloneVerified": true,
-    "FreshRemoteCloneSourceFilesVerified": 218,
-    "OriginalBuildSourceLockSHA256": "3C594297200D0D570738359AE665EA68A5F0BC9B23808397564892B77568B742",
-    "NonMarkdownInputsUnchangedFromRecordedBuild": 216,
+    "FreshRemoteCloneTrackedFilesVerified": 226,
+    "OriginalBuildSourceLockSHA256": "BA3033E9CADAD2233C148903429DD9DE02DC1FDC3A42B4A093A894AB30A572C3",
+    "NonMarkdownInputsUnchangedFromRecordedBuild": 223,
     "OfflineValidationPreviouslyExecuted": {
-      "BotSuites": 32,
-      "RuntimeSafetyChecks": 267,
-      "BotLightViewScopeChecks": 28,
+      "BotSuites": 34,
       "ThirdPersonSuites": 18,
       "WeaponSuites": 6,
-      "BepInExDependencyChecks": 33,
+      "ActualPluginLoadConfigChecks": 9,
+      "RuntimeSafetyChecks": 303,
+      "BepInExDependencyChecks": 34,
       "ActualInstalledHardDependencies": 5,
-      "NegativeCases": 2
+      "DiagnosticMigrationNegativeCases": 2,
+      "LampLifecycleNegativeCases": 2
     },
-    "UserGameplayAcceptance": "Core functions reported passed; weapon/equipment switching explicitly untested. No quantitative fog, all-map or arbitrary multiplayer acceptance inferred.",
+    "UserGameplayAcceptance": "2026-10-26: user reported clipping basically resolved and nearly no stalls after testing HeadCamera 0.3.15 / MicroMaster 0.5.16. Latest logs have no automatic capture samples or helmet KeyNotFound / native-managed trampoline errors. Untested maps, equipment switching and arbitrary mod/multiplayer combinations are not inferred.",
     "BuildOrGameplayRerunForCommit": false,
-    "LocalDeliveryPolicy": "Workspace-root local delivery contains only changed runtime files and a replacement list; excluded from source repositories. Historical evidence is archived locally.",
+    "InstalledRuntimeSHA256": {
+      "PreLuna.HeadCamera.dll": "EBDBF93A957A865A5AEFBB2DA9A71C61922B0307E8509893A9AAF091EA822B64",
+      "PreLuna.MicroMaster.dll": "5C3A22A5CF7C90DD829BFDFA1D68BA023513996401A8B0485BE1B7A5015A7593"
+    },
+    "ConfigMigrationVerified": {
+      "Version": 2,
+      "SaveSamples": false,
+      "RenderTimingLogs": false,
+      "AgentWroteGameDirectory": false
+    },
     "ReleaseCreated": false,
     "PublishedBaselineUnchanged": true
   }
