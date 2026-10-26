@@ -1,13 +1,13 @@
 {
   "SchemaVersion": 3,
-  "Status": "DocumentationConsolidated-CodeUnchanged-ExistingReleasesUnchanged-GameplayPending",
+  "Status": "CommittedSources-CoreGameplayAccepted-WeaponSwitchPending-PublishedBaselineUnchanged",
   "LegacyDeletionAllowed": false,
   "Repositories": [
     {
       "Repository": "GTFO-Bot-Commands-and-Control",
       "URL": "https://github.com/PreLuna/GTFO-Bot-Commands-and-Control.git",
-      "Commit": "5f8e2bc44df7a628fcb7f2b2dbdd5c2c27bba2bc",
-      "SourceLockSHA256": "B63EC2044FF5E545012620210A3A14FBF8899082D7269A41C0470273BF9C71AF",
+      "Commit": "3a9458ff7d12a4fab9fc59a78166b52a6537e423",
+      "SourceLockSHA256": "25222B5D70AA9CC82D0B7255C25E5C0D64934CE953BA6B3217AD23FBC207FDE7",
       "ReleaseSHA256": null
     },
     {
@@ -62,7 +62,7 @@
   ],
   "RemoteCloneAcceptancePending": false,
   "RemoteAcceptance": {
-    "VerifiedAtUtc": "2026-10-24T01:49:32.439428+00:00",
+    "VerifiedAtUtc": "2026-10-24T09:49:32.439428+08:00",
     "Scope": "Eight source/tool repositories freshly cloned; integration commit verified separately after push",
     "Repositories": [
       {
@@ -664,5 +664,33 @@
     "GameplayTested": false,
     "LegacyDeletionAllowed": false,
     "EvidenceScope": "Build/test results for the earlier exact commits recorded here; not rerun for documentation-only commits"
+  },
+  "SourceUpdateAcceptance": {
+    "VerifiedAtUtc": "2026-10-26T02:10:16.506056+00:00",
+    "Repository": "GTFO-Bot-Commands-and-Control",
+    "Commit": "3a9458ff7d12a4fab9fc59a78166b52a6537e423",
+    "GitTree": "d90ab815d9f07a64ebf91249c447cbe4dce06ef1",
+    "SourceLockSHA256": "25222B5D70AA9CC82D0B7255C25E5C0D64934CE953BA6B3217AD23FBC207FDE7",
+    "RemoteBranch": "main",
+    "RemoteCommitVerified": true,
+    "FreshRemoteCloneVerified": true,
+    "FreshRemoteCloneSourceFilesVerified": 218,
+    "OriginalBuildSourceLockSHA256": "3C594297200D0D570738359AE665EA68A5F0BC9B23808397564892B77568B742",
+    "NonMarkdownInputsUnchangedFromRecordedBuild": 216,
+    "OfflineValidationPreviouslyExecuted": {
+      "BotSuites": 32,
+      "RuntimeSafetyChecks": 267,
+      "BotLightViewScopeChecks": 28,
+      "ThirdPersonSuites": 18,
+      "WeaponSuites": 6,
+      "BepInExDependencyChecks": 33,
+      "ActualInstalledHardDependencies": 5,
+      "NegativeCases": 2
+    },
+    "UserGameplayAcceptance": "Core functions reported passed; weapon/equipment switching explicitly untested. No quantitative fog, all-map or arbitrary multiplayer acceptance inferred.",
+    "BuildOrGameplayRerunForCommit": false,
+    "LocalDeliveryPolicy": "Workspace-root local delivery contains only changed runtime files and a replacement list; excluded from source repositories. Historical evidence is archived locally.",
+    "ReleaseCreated": false,
+    "PublishedBaselineUnchanged": true
   }
 }
