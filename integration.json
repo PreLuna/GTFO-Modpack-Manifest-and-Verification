@@ -1,56 +1,42 @@
 {
   "SchemaVersion": 3,
-  "Status": "SourceCommitted-HeadCamera0315-MicroMaster0516-UserAccepted-PublishedBaselineUnchanged",
+  "Status": "SourceCommitted-LocalWorkspace20261109-PublishedBaselineUnchanged",
   "LegacyDeletionAllowed": false,
   "Repositories": [
     {
+      "Commit": "d7abea7234ff41eb71494c76f3dbafe7242e4a1a",
       "Repository": "GTFO-Bot-Commands-and-Control",
-      "URL": "https://github.com/PreLuna/GTFO-Bot-Commands-and-Control.git",
-      "Commit": "4d8af25c880a6f3db6e4e6bebb04c5cf3f059395",
-      "SourceLockSHA256": "8E2004884CB49F46D19148D31EB6536C9021531BB70C10EE222FAADD5E46B871",
-      "ReleaseSHA256": null
+      "SourceLockSHA256": "63C2D81B3B1F1542DBB37F93CD829C1196906F154F4B7DADAA589B5A25014110"
     },
     {
+      "Commit": "26496e99559db71b87a8bf2fc6aa9e7db24defd3",
       "Repository": "GTFO-Third-Person-Camera-and-HUD",
-      "URL": "https://github.com/PreLuna/GTFO-Third-Person-Camera-and-HUD.git",
-      "Commit": "d52b872c16a2b7b6c1a2085677c3f611552259aa",
-      "SourceLockSHA256": "057C86F669C60468AB03EA0A80010FBE4534FA2E9FEE2246C70E7433A77E1328",
-      "ReleaseSHA256": null
+      "SourceLockSHA256": "71AC4D2B7F9A6EFB1E61101FB337C873EB093D787B13AADDA62AB75BE96BB80F"
     },
     {
+      "Commit": "7da6b621e23ed21a7edc5965438ff7725cc20732",
       "Repository": "GTFO-Weapon-Attachments-Flashlights-and-Stats",
-      "URL": "https://github.com/PreLuna/GTFO-Weapon-Attachments-Flashlights-and-Stats.git",
-      "Commit": "d7c01f6f38e8084801f213c2cdd1f24e6b69d6db",
-      "SourceLockSHA256": "2B693C481E5C6213FA5C1B2E427A1D5F39AD4224D4AF3AA3DB37E4B95F945DC3",
-      "ReleaseSHA256": null
+      "SourceLockSHA256": "3FE39DCD857296AB3477F35622E7F923E88502F5900264EEB2F072B569DABA5C"
     },
     {
+      "Commit": "f53e1468dac014d07a5e7514bb7ebf955d1ef670",
       "Repository": "GTFO-Player-Movement-and-Health",
-      "URL": "https://github.com/PreLuna/GTFO-Player-Movement-and-Health.git",
-      "Commit": "74694722e26c9939c3c3dd9bb48013cf26165693",
-      "SourceLockSHA256": "AA555E420EFF90D6EC1A7804C25CC57DF8E86F1BF837C758121D443EFBD189EE",
-      "ReleaseSHA256": null
+      "SourceLockSHA256": "458AD7268B04CC8C2D552389B5F75989DE9026CCF13DA20D53DB9D814D3AAC34"
     },
     {
+      "Commit": "9875c82a60d38698eef5445438596fb88cb194c7",
       "Repository": "GTFO-C-Foam-Gun-Enhancements",
-      "URL": "https://github.com/PreLuna/GTFO-C-Foam-Gun-Enhancements.git",
-      "Commit": "dedf6f82dc2b7612092c83631da9fe6bbeec6419",
-      "SourceLockSHA256": "CBD42BE393FA310873B8EE8E7CF3B106EE37704370F3F419B31AB3BEBA2AF911",
-      "ReleaseSHA256": null
+      "SourceLockSHA256": "C42BEC0149A69136CD4F5C628DE2EC563582ABE9461239E88C74012214C7661E"
     },
     {
+      "Commit": "a82671854df65baf65fe0b18e18143e720b3aeb5",
       "Repository": "GTFO-Bio-Scanner-and-Enemy-Markers",
-      "URL": "https://github.com/PreLuna/GTFO-Bio-Scanner-and-Enemy-Markers.git",
-      "Commit": "ee364ff4b37d32adacf232b8fb96c35a04d562f1",
-      "SourceLockSHA256": "A4166EFF1BBB61134A6E44414E733235812DC8D64396761F3275B189DF901F32",
-      "ReleaseSHA256": null
+      "SourceLockSHA256": "F102426D3E803813FD31161E788354A169D006E78CEECD5D28F7037B362A652B"
     },
     {
+      "Commit": "1cb49a6f7cc07e5931f6033ce40c21104a0cd511",
       "Repository": "GTFO-Consumable-Stacking",
-      "URL": "https://github.com/PreLuna/GTFO-Consumable-Stacking.git",
-      "Commit": "03dcdf5c01cf5390c34ef59d1d04508383782fa1",
-      "SourceLockSHA256": "81DC653CA44227C4DDE1A5253EB8937BA89887FB4B74A7EE67814DEE19819F09",
-      "ReleaseSHA256": null
+      "SourceLockSHA256": "2FC268A56FB27D4657E44129F9B3DCF86F0811260E10A2B3028A39480E7EB125"
     },
     {
       "Repository": "GTFO-Mod-Build-and-Verification-Tools",
@@ -58,9 +44,19 @@
       "Commit": "a63112cca6d84614d76385e5a8797cefa12936ce",
       "SourceLockSHA256": "E67A08DEBFABB7F383A0A6963F99322353A97A6A0E701EF9F526F6108638EA71",
       "ReleaseSHA256": null
+    },
+    {
+      "Commit": "df171c0409a8f433646424cb9c3a415060833dbd",
+      "Repository": "GTFO-Ingame-Mod-Control",
+      "SourceLockSHA256": "39CF90F59A8383429CFB1171F4E1534E17458E11830EFF1336943A9EB501D0EF"
+    },
+    {
+      "Commit": "b7904f959796121fa7aed4f2322b2e04879f75ba",
+      "Repository": "GTFO-Enemy-Health-Bar",
+      "SourceLockSHA256": "506FB6F1AE2DCE9C288806E874DFBEE5F96ADAD411C30E7BF4C641A2F30C3C1D"
     }
   ],
-  "RemoteCloneAcceptancePending": false,
+  "RemoteCloneAcceptancePending": true,
   "RemoteAcceptance": {
     "VerifiedAtUtc": "2026-10-24T09:49:32.439428+08:00",
     "Scope": "Eight source/tool repositories freshly cloned; integration commit verified separately after push",
@@ -666,7 +662,7 @@
     "EvidenceScope": "Build/test results for the earlier exact commits recorded here; not rerun for documentation-only commits"
   },
   "SourceUpdateAcceptance": {
-    "VerifiedAtUtc": "2026-10-26T13:24:30.371053+00:00",
+    "VerifiedAtUtc": "2026-10-26T21:24:30.371053+08:00",
     "Repository": "GTFO-Bot-Commands-and-Control",
     "Commit": "4d8af25c880a6f3db6e4e6bebb04c5cf3f059395",
     "GitTree": "02d8d6d39dc8d5c5e272b80be95b88da0c8c32a5",
@@ -701,6 +697,258 @@
       "AgentWroteGameDirectory": false
     },
     "ReleaseCreated": false,
+    "PublishedBaselineUnchanged": true
+  },
+  "LocalWorkspace": {
+    "Purpose": "2026-11-06 Captain.Boosters 0.5.3 ordinary perfect inventory normalization, existing farmer/no-consume and bot slots; source/mock/Harmony/installed-contract verification, local single-DLL delivery; no gameplay/install/commit/push/release; PublishedBaseline unchanged",
+    "UpdatedAtUtc": "2026-11-06T10:48:28.713645+08:00",
+    "BaseIntegrationCommit": "ed9b8fcf1f99d9114913747a041181d935549494",
+    "CommitCreated": false,
+    "Pushed": false,
+    "Repositories": [
+      {
+        "Repository": "GTFO-Bot-Commands-and-Control",
+        "BaseCommit": "4d8af25c880a6f3db6e4e6bebb04c5cf3f059395",
+        "SourceLockSHA256": "FB92C090DA145B326E03766F939EEC0E7CCF486D5D53A37FC3342CB58BEDC5E3"
+      },
+      {
+        "Repository": "GTFO-Third-Person-Camera-and-HUD",
+        "BaseCommit": "d52b872c16a2b7b6c1a2085677c3f611552259aa",
+        "SourceLockSHA256": "66238417D7A7DE31EF8B6AA2E5BF7C2EF4B181E9CC74ED92B5C9191733DA5271"
+      },
+      {
+        "Repository": "GTFO-Weapon-Attachments-Flashlights-and-Stats",
+        "BaseCommit": "d7c01f6f38e8084801f213c2cdd1f24e6b69d6db",
+        "SourceLockSHA256": "2B693C481E5C6213FA5C1B2E427A1D5F39AD4224D4AF3AA3DB37E4B95F945DC3"
+      },
+      {
+        "Repository": "GTFO-Player-Movement-and-Health",
+        "BaseCommit": "74694722e26c9939c3c3dd9bb48013cf26165693",
+        "SourceLockSHA256": "AA555E420EFF90D6EC1A7804C25CC57DF8E86F1BF837C758121D443EFBD189EE"
+      },
+      {
+        "Repository": "GTFO-C-Foam-Gun-Enhancements",
+        "BaseCommit": "dedf6f82dc2b7612092c83631da9fe6bbeec6419",
+        "SourceLockSHA256": "CBD42BE393FA310873B8EE8E7CF3B106EE37704370F3F419B31AB3BEBA2AF911"
+      },
+      {
+        "Repository": "GTFO-Bio-Scanner-and-Enemy-Markers",
+        "BaseCommit": "ee364ff4b37d32adacf232b8fb96c35a04d562f1",
+        "SourceLockSHA256": "A4166EFF1BBB61134A6E44414E733235812DC8D64396761F3275B189DF901F32"
+      },
+      {
+        "Repository": "GTFO-Consumable-Stacking",
+        "BaseCommit": "03dcdf5c01cf5390c34ef59d1d04508383782fa1",
+        "SourceLockSHA256": "81DC653CA44227C4DDE1A5253EB8937BA89887FB4B74A7EE67814DEE19819F09"
+      },
+      {
+        "Repository": "GTFO-Mod-Build-and-Verification-Tools",
+        "BaseCommit": "a63112cca6d84614d76385e5a8797cefa12936ce",
+        "SourceLockSHA256": "E67A08DEBFABB7F383A0A6963F99322353A97A6A0E701EF9F526F6108638EA71"
+      }
+    ],
+    "GameplayTested": false,
+    "Evidence": "维护记录/阶段证据-20261105-HUD0121视觉细化.zip",
+    "NewGameProvidedAssemblyReference": null,
+    "NewRuntimeDependencies": [],
+    "UserGameplayAcceptance": "2026-11-05 user: 经过测试，第三人称和第一人称现在均已正常，是不是可以收尾了？ ThirdPerson 0.6.2 first/third-person body-scale behavior accepted. MicroMaster 0.5.17 and earlier functionality retain previous acceptance; no unreported matrix/performance coverage inferred.",
+    "CloseoutDocumentationOnly": false,
+    "RuntimeAcceptance": {
+      "Version": "0.6.2",
+      "UserConfirmed": true,
+      "Date": "2026-11-05",
+      "InstalledSHA256": "75D3C4FF20F1F07D0F3F0473903EB1E82EFF4E389A714A93DEBB39F118203287",
+      "AssistantRanGameplay": false,
+      "NewRuntimeFiles": []
+    },
+    "BuildEvidence": {
+      "Path": "维护记录/阶段证据-20261105-HUD0121视觉细化.zip",
+      "SourceLockSHA256": "649C6C80085EC724D0BBF7ABBA565747F577BF31017B128B3388D8AC016A7D7A",
+      "FinalDocumentationLockSHA256": "751ECA5AE9B55E84ADB35817C7563861CA908A2380B142633026ABDEA37B61A5",
+      "ProductionSourceFingerprintsMatchPassingTests": true,
+      "Assemblies": 3,
+      "OfflineRecipeGroups": 30,
+      "DivisionChecks": 39,
+      "PersonalRuntimeChecks": 72,
+      "PanelSettingsChecks": 17,
+      "CompactParityScenarios": 54,
+      "NewMethodsJitPrepared": 29,
+      "GuiMatrixInteropPassed": true,
+      "NativeMethodsInvoked": false,
+      "GameplayTested": false
+    },
+    "HudFix": {
+      "Version": "0.11.4",
+      "UserConfirmed": false,
+      "DeliveredSHA256": "653A1B55858ECA97D5E345EEF3F17FFB83CE399AB532125D992F4379F003BEDB",
+      "InstalledByAssistant": false,
+      "NewRuntimeFiles": [
+        "PreLuna.ThirdPersonHUD.dll"
+      ],
+      "NewRuntimeDependencies": []
+    },
+    "VisualResearch": {
+      "Target": "v3_实机还原",
+      "RetainedRuntimeVersion": "0.11.4",
+      "RetainedRuntimeSHA256": "653A1B55858ECA97D5E345EEF3F17FFB83CE399AB532125D992F4379F003BEDB",
+      "UserPreliminaryFeedback": "基本上大差不差，但是还有一些小缺陷",
+      "ConfigStyleSwitchImplemented": false,
+      "ConfirmedCorrections": [
+        "No carry progress bar; pickup is brief then carrying state",
+        "Core reference x=860 shoulder, x=960 centered at 1920x1080; no camera changes"
+      ],
+      "NonDocumentInputsUnchanged": true,
+      "BuildRerun": false,
+      "TestsRerun": false,
+      "GameplayRerun": false,
+      "HistoricalStudy": true,
+      "ImplementedBy": "Hud0120Implementation"
+    },
+    "PreviousBuildEvidence0114": {
+      "Path": "维护记录/阶段证据-20261105-HUD0114数据与精简修复.zip",
+      "SourceLockSHA256": "6EE93152C4D361E7A6576CAE80DAE4A8806538CAAD813D797719D1240C78C5E4",
+      "TestSourceLockSHA256": "510051102D325879C5470168E9DC114A7F06B6E96E0F1FA08D1663DDECA3386A",
+      "ProductionSourceFingerprintsMatchPassingTests": true,
+      "Assemblies": 3,
+      "OfflineRecipeGroups": 29,
+      "GameCollectionChecks": 56,
+      "HudRuntimeChecks": 34,
+      "PersonalReadoutChecks": 58,
+      "PersonalRuntimeChecks": 64,
+      "OldClockComparisonRejected": true,
+      "NewMethodsJitPrepared": 8,
+      "NativeMethodsInvoked": false,
+      "GameplayTested": false
+    },
+    "Hud0120Implementation": {
+      "Version": "0.12.0",
+      "UserConfirmed": false,
+      "DefaultStyle": "DivisionV3",
+      "RetainedStyle": "Compact",
+      "ConfigStyleSwitchImplemented": true,
+      "CoreAnchorReferences": {
+        "ShoulderX": 860,
+        "CenteredX": 960,
+        "Top": 686
+      },
+      "CarryingProgress": false,
+      "TeamDefaultVisible": false,
+      "TeamKey": "End",
+      "HudKey": "Insert",
+      "DeliveredSHA256": "6B3DD43C787745C324BC530D4B938D480DC8F135DEDF401963AFA27AB42D538E",
+      "NewRuntimeFiles": [
+        "PreLuna.ThirdPersonHUD.dll"
+      ],
+      "NewRuntimeDependencies": [],
+      "InstalledByAssistant": false,
+      "GameplayTested": false,
+      "UserReportedLoadingSucceeded": true,
+      "VisualRefinementRequested": true
+    },
+    "PreviousBuildEvidence0120": {
+      "Path": "维护记录/阶段证据-20261105-HUD0120双样式实现.zip",
+      "SourceLockSHA256": "087B283E981C95884314BED0090C6013DFBF65D9A366C461838F2EB7AB068AFC",
+      "FinalDocumentationLockSHA256": "B21633605714617881102B290204959CA02DAFD18CD6121906A9758AFAAFAD5B",
+      "ProductionSourceFingerprintsMatchPassingTests": true,
+      "Assemblies": 3,
+      "OfflineRecipeGroups": 30,
+      "DivisionChecks": 29,
+      "PersonalRuntimeChecks": 69,
+      "PanelSettingsChecks": 15,
+      "CompactParityScenarios": 54,
+      "NewMethodsJitPrepared": 23,
+      "NativeMethodsInvoked": false,
+      "GameplayTested": false
+    },
+    "Hud0121Implementation": {
+      "Version": "0.12.1",
+      "UserConfirmed": false,
+      "Style": "DivisionV3",
+      "RetainedStyle": "Compact",
+      "BodyAnchor": "Projected root + 0.9m waist reference; not bone attachment",
+      "CoreTransform": "Bounded shared affine approximation; peripheral overlays remain screen-aligned",
+      "DefaultTiltDegrees": 2,
+      "NumberWidth": 0.82,
+      "CarryingProgress": false,
+      "DeliveredSHA256": "1872737661D343E81C2DFD0F1E00544CB1DE3009104836E211670E91A12F6A2E",
+      "NewRuntimeFiles": [
+        "PreLuna.ThirdPersonHUD.dll"
+      ],
+      "NewRuntimeDependencies": [],
+      "InstalledByAssistant": false,
+      "GameplayTested": false
+    },
+    "Booster053Implementation": {
+      "Version": "0.5.3",
+      "SourceLockSHA256": "FB92C090DA145B326E03766F939EEC0E7CCF486D5D53A37FC3342CB58BEDC5E3",
+      "DeliverySHA256": "44387CAD89A1DEAF146059CC403851250F8C513EF6163463ABF1A92EA3247655",
+      "Assemblies": 7,
+      "SourceMockGroups": 37,
+      "HarmonyProcessScenarios": 4,
+      "HarmonyAssertions": 42,
+      "InstalledContractChecks": 18,
+      "ProductionMethodsJitPrepared": 38,
+      "GameplayTested": false,
+      "InstalledByAssistant": false,
+      "NewRuntimeFiles": [
+        "PreLuna.Captain.Boosters.dll"
+      ],
+      "NewRuntimeDependencies": []
+    }
+  },
+  "LocalWorkspace20261109": {
+    "Pushed": false,
+    "IntegrationCommitCreated": true,
+    "UpdatedAtUtc": "2026-11-09T21:37:36.822+08:00",
+    "Repositories": [
+      {
+        "Commit": "df171c0409a8f433646424cb9c3a415060833dbd",
+        "Repository": "GTFO-Ingame-Mod-Control",
+        "SourceLockSHA256": "39CF90F59A8383429CFB1171F4E1534E17458E11830EFF1336943A9EB501D0EF"
+      },
+      {
+        "Commit": "26496e99559db71b87a8bf2fc6aa9e7db24defd3",
+        "Repository": "GTFO-Third-Person-Camera-and-HUD",
+        "SourceLockSHA256": "71AC4D2B7F9A6EFB1E61101FB337C873EB093D787B13AADDA62AB75BE96BB80F"
+      },
+      {
+        "Commit": "d7abea7234ff41eb71494c76f3dbafe7242e4a1a",
+        "Repository": "GTFO-Bot-Commands-and-Control",
+        "SourceLockSHA256": "63C2D81B3B1F1542DBB37F93CD829C1196906F154F4B7DADAA589B5A25014110"
+      },
+      {
+        "Commit": "b7904f959796121fa7aed4f2322b2e04879f75ba",
+        "Repository": "GTFO-Enemy-Health-Bar",
+        "SourceLockSHA256": "506FB6F1AE2DCE9C288806E874DFBEE5F96ADAD411C30E7BF4C641A2F30C3C1D"
+      },
+      {
+        "Commit": "9875c82a60d38698eef5445438596fb88cb194c7",
+        "Repository": "GTFO-C-Foam-Gun-Enhancements",
+        "SourceLockSHA256": "C42BEC0149A69136CD4F5C628DE2EC563582ABE9461239E88C74012214C7661E"
+      },
+      {
+        "Commit": "7da6b621e23ed21a7edc5965438ff7725cc20732",
+        "Repository": "GTFO-Weapon-Attachments-Flashlights-and-Stats",
+        "SourceLockSHA256": "3FE39DCD857296AB3477F35622E7F923E88502F5900264EEB2F072B569DABA5C"
+      },
+      {
+        "Commit": "f53e1468dac014d07a5e7514bb7ebf955d1ef670",
+        "Repository": "GTFO-Player-Movement-and-Health",
+        "SourceLockSHA256": "458AD7268B04CC8C2D552389B5F75989DE9026CCF13DA20D53DB9D814D3AAC34"
+      },
+      {
+        "Commit": "a82671854df65baf65fe0b18e18143e720b3aeb5",
+        "Repository": "GTFO-Bio-Scanner-and-Enemy-Markers",
+        "SourceLockSHA256": "F102426D3E803813FD31161E788354A169D006E78CEECD5D28F7037B362A652B"
+      },
+      {
+        "Commit": "1cb49a6f7cc07e5931f6033ce40c21104a0cd511",
+        "Repository": "GTFO-Consumable-Stacking",
+        "SourceLockSHA256": "2FC268A56FB27D4657E44129F9B3DCF86F0811260E10A2B3028A39480E7EB125"
+      }
+    ],
+    "SourceCommitsCreated": true,
+    "Purpose": "2026-11-09 local target pages, host/restart notices, module docs; source commits created locally; no push/release",
     "PublishedBaselineUnchanged": true
   }
 }
