@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 3,
-  "Status": "SourceCommitted-LocalWorkspace20261109-PublishedBaselineUnchanged",
+  "Status": "SourceCommitted-RemotePushed20261109-PublishedBaselineUnchanged",
   "LegacyDeletionAllowed": false,
   "Repositories": [
     {
@@ -897,7 +897,7 @@
     }
   },
   "LocalWorkspace20261109": {
-    "Pushed": false,
+    "Pushed": true,
     "IntegrationCommitCreated": true,
     "UpdatedAtUtc": "2026-11-09T21:37:36.822+08:00",
     "Repositories": [
@@ -949,6 +949,76 @@
     ],
     "SourceCommitsCreated": true,
     "Purpose": "2026-11-09 local target pages, host/restart notices, module docs; source commits created locally; no push/release",
+    "PublishedBaselineUnchanged": true,
+    "RemoteCommitVerified": true,
+    "RemoteVerifiedAtUtc": "2026-11-09T21:51:25.835+08:00"
+  },
+  "RemotePushVerified": true,
+  "RemotePushAcceptance20261109": {
+    "VerifiedAtUtc": "2026-11-09T21:51:25.835+08:00",
+    "Scope": "Nine source repositories plus ModControl pushed to origin/main; remote refs verified with git ls-remote; no fresh clone/build/gameplay rerun",
+    "RemoteBranch": "main",
+    "RemoteCommitVerified": true,
+    "FreshRemoteCloneVerified": false,
+    "Repositories": [
+      {
+        "Repository": "GTFO-Bot-Commands-and-Control",
+        "Commit": "d7abea7234ff41eb71494c76f3dbafe7242e4a1a",
+        "SourceLockSHA256": "63C2D81B3B1F1542DBB37F93CD829C1196906F154F4B7DADAA589B5A25014110",
+        "RemoteCommitVerified": true
+      },
+      {
+        "Repository": "GTFO-Third-Person-Camera-and-HUD",
+        "Commit": "26496e99559db71b87a8bf2fc6aa9e7db24defd3",
+        "SourceLockSHA256": "71AC4D2B7F9A6EFB1E61101FB337C873EB093D787B13AADDA62AB75BE96BB80F",
+        "RemoteCommitVerified": true
+      },
+      {
+        "Repository": "GTFO-Weapon-Attachments-Flashlights-and-Stats",
+        "Commit": "7da6b621e23ed21a7edc5965438ff7725cc20732",
+        "SourceLockSHA256": "3FE39DCD857296AB3477F35622E7F923E88502F5900264EEB2F072B569DABA5C",
+        "RemoteCommitVerified": true
+      },
+      {
+        "Repository": "GTFO-Player-Movement-and-Health",
+        "Commit": "f53e1468dac014d07a5e7514bb7ebf955d1ef670",
+        "SourceLockSHA256": "458AD7268B04CC8C2D552389B5F75989DE9026CCF13DA20D53DB9D814D3AAC34",
+        "RemoteCommitVerified": true
+      },
+      {
+        "Repository": "GTFO-C-Foam-Gun-Enhancements",
+        "Commit": "9875c82a60d38698eef5445438596fb88cb194c7",
+        "SourceLockSHA256": "C42BEC0149A69136CD4F5C628DE2EC563582ABE9461239E88C74012214C7661E",
+        "RemoteCommitVerified": true
+      },
+      {
+        "Repository": "GTFO-Bio-Scanner-and-Enemy-Markers",
+        "Commit": "a82671854df65baf65fe0b18e18143e720b3aeb5",
+        "SourceLockSHA256": "F102426D3E803813FD31161E788354A169D006E78CEECD5D28F7037B362A652B",
+        "RemoteCommitVerified": true
+      },
+      {
+        "Repository": "GTFO-Consumable-Stacking",
+        "Commit": "1cb49a6f7cc07e5931f6033ce40c21104a0cd511",
+        "SourceLockSHA256": "2FC268A56FB27D4657E44129F9B3DCF86F0811260E10A2B3028A39480E7EB125",
+        "RemoteCommitVerified": true
+      },
+      {
+        "Repository": "GTFO-Ingame-Mod-Control",
+        "Commit": "df171c0409a8f433646424cb9c3a415060833dbd",
+        "SourceLockSHA256": "39CF90F59A8383429CFB1171F4E1534E17458E11830EFF1336943A9EB501D0EF",
+        "RemoteCommitVerified": true
+      },
+      {
+        "Repository": "GTFO-Enemy-Health-Bar",
+        "Commit": "b7904f959796121fa7aed4f2322b2e04879f75ba",
+        "SourceLockSHA256": "506FB6F1AE2DCE9C288806E874DFBEE5F96ADAD411C30E7BF4C641A2F30C3C1D",
+        "RemoteCommitVerified": true
+      }
+    ],
+    "IntegrationRepository": "GTFO-Modpack-Manifest-and-Verification",
+    "IntegrationCommitPending": true,
+    "GameplayTested": false,
     "PublishedBaselineUnchanged": true
   }
 }
