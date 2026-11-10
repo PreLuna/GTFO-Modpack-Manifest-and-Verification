@@ -9,7 +9,7 @@
 
 | 入口 | 用途 |
 | --- | --- |
-| [integration.json](integration.json) | 当前8个功能／工具仓精确提交和锁，以及独立的历史发布快照 |
+| [integration.json](integration.json) | 当前10个功能／工具仓精确提交和锁，以及独立的历史发布快照 |
 | [Verify-All.ps1](Verify-All.ps1) | 核对源码锁、精确提交与干净工作区 |
 
 本仓不存各MOD源码或安装ZIP。Repositories表示当前源码组合，PublishedBaseline表示已有安装候选及旧提交／附件哈希；两者不得混用。
@@ -28,7 +28,7 @@
 ./Verify-All.ps1
 ```
 
-默认模式检查Repositories中的8个源码仓精确提交、维护锁和干净工作区，并检查本仓文件锁；不能用AllowUnpinned的内容检查冒充精确提交验收。
+默认模式检查Repositories中的10个源码仓精确提交、维护锁和干净工作区，并检查本仓文件锁；不能用AllowUnpinned的内容检查冒充精确提交验收。
 
 需要核验后续未提交改动时，先显式登记LocalWorkspace（8仓BaseCommit、SourceLockSHA256、BaseIntegrationCommit及CommitCreated=false、Pushed=false），再调用-LocalWorkspace。完成提交后移除临时字段，登记真实新提交，重新核对远端下载。
 

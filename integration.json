@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 3,
-  "Status": "SourceCommitted-RemotePushed20261109-PublishedBaselineUnchanged",
+  "Status": "SourceCommitted-RemotePushed20261110-PublishedBaselineUnchanged",
   "LegacyDeletionAllowed": false,
   "Repositories": [
     {
@@ -51,9 +51,9 @@
       "SourceLockSHA256": "39CF90F59A8383429CFB1171F4E1534E17458E11830EFF1336943A9EB501D0EF"
     },
     {
-      "Commit": "b7904f959796121fa7aed4f2322b2e04879f75ba",
+      "Commit": "389cafd6dacd49bfd63f64be0ea269d494ea674a",
       "Repository": "GTFO-Enemy-Health-Bar",
-      "SourceLockSHA256": "506FB6F1AE2DCE9C288806E874DFBEE5F96ADAD411C30E7BF4C641A2F30C3C1D"
+      "SourceLockSHA256": "D99DECCECE9F0739E9AEF09D4879D15BE95D89D8A0874C6C4CD3F9397E8F9398"
     }
   ],
   "RemoteCloneAcceptancePending": true,
@@ -1019,6 +1019,26 @@
     "IntegrationRepository": "GTFO-Modpack-Manifest-and-Verification",
     "IntegrationCommitPending": true,
     "GameplayTested": false,
+    "PublishedBaselineUnchanged": true
+  },
+  "RemotePushAcceptance20261110": {
+    "VerifiedAtUtc": "2026-11-10T10:48:14+08:00",
+    "Scope": "EnemyHealthBar 389cafd pushed to origin/main; remote ref verified via GitHub API because git HTTPS timed out; no fresh clone/build/gameplay rerun",
+    "RemoteBranch": "main",
+    "RemoteCommitVerified": true,
+    "FreshRemoteCloneVerified": false,
+    "Repositories": [
+      {
+        "Repository": "GTFO-Enemy-Health-Bar",
+        "Commit": "389cafd6dacd49bfd63f64be0ea269d494ea674a",
+        "SourceLockSHA256": "D99DECCECE9F0739E9AEF09D4879D15BE95D89D8A0874C6C4CD3F9397E8F9398",
+        "RemoteCommitVerified": true
+      }
+    ],
+    "IntegrationRepository": "GTFO-Modpack-Manifest-and-Verification",
+    "IntegrationCommitPending": true,
+    "GameplayTested": false,
+    "GameplayTestedNote": "The feature repository records the user's 2026-11-10 gameplay confirmation; not rerun for this integration update.",
     "PublishedBaselineUnchanged": true
   }
 }
